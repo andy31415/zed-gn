@@ -1,0 +1,7 @@
+id = "zed-gn"
+name = "GN integration for zed"
+version = "0.9.0"
+schema_version = 1
+authors = ["Andrei Litvin <andrei@andy314.com>"]
+description = "Looking to have better GN integration in zed"
+repository = "https://github.com/andy31415/zed-gn"
