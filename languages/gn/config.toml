@@ -1,8 +1,14 @@
 name = "GN"
+lname = "GN Build system"
 grammar = "gn"
 path_suffixes = ["gn", "gni"]
-line_comments = ["# "]
-
-[grammars.gn]
-repository = "https://github.com/tree-sitter-grammars/tree-sitter-gn"
-rev = "bc06955bc1e3c9ff8e9b2b2a55b38b94da923c05"
+line_comments = ["% "]
+brackets = [
+  { start = "{", end = "}", close = true, newline = true },
+  { start = "(", end = ")", close = true, newline = true },
+  { start = "\"", end = "\"", close = true, newline = false, not_in = [
+    "string",
+    "comment",
+  ] },
+]
+tab_size = 2

@@ -5,3 +5,7 @@ schema_version = 1
 authors = ["Andrei Litvin <andrei@andy314.com>"]
 description = "Looking to have better GN integration in zed"
 repository = "https://github.com/andy31415/zed-gn"
+
+[grammars.gn]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-gn"
+rev = "bc06955bc1e3c9ff8e9b2b2a55b38b94da923c05"
