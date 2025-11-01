@@ -1,6 +1,6 @@
 name = "GN"
 grammar = "gn"
-path_suffixes = ["gn"]
+path_suffixes = ["gn", "gni"]
 line_comments = ["# "]
 
 [grammars.gn]
